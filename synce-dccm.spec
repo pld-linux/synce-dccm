@@ -1,12 +1,12 @@
 Summary:	SynCE DCCM - daemon to communicate with Pocket PC device
 Summary(pl):	SynCE DCCM - demon do komunikacji z urz±dzeniem Pocket PC
 Name:		synce-dccm
-Version:	0.9.0
+Version:	0.9.1
 Release:	1
 License:	MIT
 Group:		Libraries
 Source0: 	http://dl.sourceforge.net/synce/%{name}-%{version}.tar.gz
-# Source0-md5:	a32607bf423e5e5467b80edc2b7dac5d
+# Source0-md5:	8818b71133049fe9c739166225aebe0c
 URL:		http://synce.sourceforge.net/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1.4
