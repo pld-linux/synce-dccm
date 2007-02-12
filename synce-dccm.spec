@@ -1,5 +1,5 @@
 Summary:	SynCE DCCM - daemon to communicate with Pocket PC device
-Summary(pl):	SynCE DCCM - demon do komunikacji z urz±dzeniem Pocket PC
+Summary(pl.UTF-8):   SynCE DCCM - demon do komunikacji z urzÄ…dzeniem Pocket PC
 Name:		synce-dccm
 Version:	0.9.1
 Release:	1
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 DCCM is a daemon required to be able to communicate with a handheld
 device. It's part of SynCE project.
 
-%description -l pl
-DCCM to demon potrzebny do komunikowania siê z urz±dzeniem Pocket PC.
-Jest on czê¶ci± projektu SynCE.
+%description -l pl.UTF-8
+DCCM to demon potrzebny do komunikowania siÄ™ z urzÄ…dzeniem Pocket PC.
+Jest on czÄ™Å›ciÄ… projektu SynCE.
 
 %prep
 %setup -q
