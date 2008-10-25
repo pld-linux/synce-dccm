@@ -1,3 +1,6 @@
+# TODO:
+# - fix Group (Applications/Networking, Applications/System?)
+#
 Summary:	SynCE DCCM - daemon to communicate with Pocket PC device
 Summary(pl.UTF-8):	SynCE DCCM - demon do komunikacji z urządzeniem Pocket PC
 Name:		synce-dccm
