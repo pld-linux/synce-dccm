@@ -13,6 +13,7 @@ Source0: 	http://dl.sourceforge.net/synce/%{name}-%{version}.tar.gz
 URL:		http://www.synce.org/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1.4
+BuildRequires:	hal-devel
 BuildRequires:	libtool
 BuildRequires:	synce-libsynce-devel >= 0.9.0
 # for play
