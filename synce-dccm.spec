@@ -1,19 +1,16 @@
-# TODO:
-# - fix Group (Applications/Networking, Applications/System?)
-#
+# NOTE: obsoleted in favour of synce-core.spec
 Summary:	SynCE DCCM - daemon to communicate with Pocket PC device
 Summary(pl.UTF-8):	SynCE DCCM - demon do komunikacji z urządzeniem Pocket PC
 Name:		synce-dccm
 Version:	0.9.1
 Release:	1
 License:	MIT
-Group:		Libraries
-Source0: 	http://dl.sourceforge.net/synce/%{name}-%{version}.tar.gz
+Group:		Applications/Networking
+Source0: 	http://downloads.sourceforge.net/synce/%{name}-%{version}.tar.gz
 # Source0-md5:	8818b71133049fe9c739166225aebe0c
 URL:		http://www.synce.org/
-BuildRequires:	autoconf >= 2.50
+BuildRequires:	autoconf >= 2.53
 BuildRequires:	automake >= 1.4
-BuildRequires:	hal-devel
 BuildRequires:	libtool
 BuildRequires:	synce-libsynce-devel >= 0.9.0
 # for play
@@ -54,5 +51,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc LICENSE README TODO
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man1/*.1*
+%attr(755,root,root) %{_bindir}/dccm
+%attr(755,root,root) %{_bindir}/synce-sound
+%{_mandir}/man1/dccm.1*
+%{_mandir}/man1/synce-sound.1*
